@@ -1,4 +1,4 @@
-![alt text](https://github.com/zisispa/searchapp/blob/master/portfolioimage.PNG?raw=true)
+![alt text](https://github.com/zisispa/portfoliozisis/blob/master/portfolioimage.PNG?raw=true)
 
 ## About this Project
 

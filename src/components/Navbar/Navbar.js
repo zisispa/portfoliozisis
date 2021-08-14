@@ -94,6 +94,7 @@ const Navbar = () => {
                       <a
                         href={resume}
                         className='inline-flex items-center justify-center h-12 px-6 font-poppins tracking-tight border-2  border-navy_color text-navy_color rounded-md'
+                        onClick={() => setIsMenuOpen(false)}
                       >
                         <span className='pr-2'>
                           <BsFileEarmarkArrowDown size={20} />

@@ -15,11 +15,11 @@ const Navbar = () => {
           title='Company'
           className='inline-flex items-center'
         >
-          <span className='ml-2 text-3xl font-poppins font-black tracking-wide text-light_green uppercase border-2 p-2 rounded-md hover:bg-light_green_hover'>
+          <span className='ml-2 text-3xl font-poppins font-black tracking-wide text-green_color border-green_color uppercase border-2 p-2 rounded-md hover:bg-green_color_hover'>
             ZS
           </span>
         </a>
-        <ul className='flex items-center hidden space-x-8 lg:flex text-light_gray'>
+        <ul className='flex items-center hidden space-x-8 lg:flex text-white_light_color'>
           <NavbarItem text_id={"about"} title='About' />
           <NavbarItem text_id={"experience"} title='Experience' />
           <NavbarItem text_id={"projects"} title='Projects' />
@@ -27,7 +27,7 @@ const Navbar = () => {
           <li>
             <a
               href='#resume'
-              className='inline-flex items-center justify-center h-12 px-6 font-poppins tracking-tight border-2  border-light_green text-light_green rounded-md hover:bg-light_green_hover'
+              className='inline-flex items-center justify-center h-12 px-6 font-poppins tracking-tight border-2  border-green_color text-green_color rounded-md hover:bg-green_color_hover'
             >
               <span className='pr-2'>
                 <BsFileEarmarkArrowDown size={20} />
@@ -43,7 +43,7 @@ const Navbar = () => {
             className='p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50'
             onClick={() => setIsMenuOpen(true)}
           >
-            <CgMenuRightAlt size={40} className='text-light_green' />
+            <CgMenuRightAlt size={40} className='text-green_color' />
           </button>
           {isMenuOpen && (
             <div className='absolute top-0 left-0 w-full bg-light_white z-50'>
@@ -74,7 +74,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href='#resume'
-                        className='inline-flex items-center justify-center h-12 px-6 font-poppins tracking-tight border-2  border-navy text-navy rounded-md'
+                        className='inline-flex items-center justify-center h-12 px-6 font-poppins tracking-tight border-2  border-navy_color text-navy_color rounded-md'
                       >
                         <span className='pr-2'>
                           <BsFileEarmarkArrowDown size={20} />

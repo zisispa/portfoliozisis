@@ -4,12 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        navy: "#0a192f",
-        light_green: "#64ffda",
-        light_green_hover: "rgba(100,255,218,0.1)",
-        light_gray: "#a8b2d1",
-        gray_dark_light: "#8892b0",
-        light_white: "#ccd6f6",
+        navy_color: "#0a192f",
+        green_color: "#64ffda",
+        green_color_hover: "rgba(100,255,218,0.1)",
+        white_color: "#ccd6f6",
+        white_dark_color: "#8892b0",
+        white_light_color: "#a8b2d1",
       },
       fontFamily: {
         sans: ["Inter var"],

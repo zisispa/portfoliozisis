@@ -4,16 +4,16 @@ import { FiChevronRight } from "react-icons/fi";
 const ExperienceItem = ({ title, subtitle, description, svg, details }) => {
   return (
     <div>
-      <div className='flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50'>
+      <div className='flex items-center justify-center w-16 h-16 mb-4 mt-5 rounded-full bg-indigo-50'>
         {svg}
       </div>
-      <h6 className='mb-2 font-poppins leading-relaxed text-light_white'>
+      <h6 className='mb-2 font-poppins leading-relaxed text-white_color'>
         {title}
       </h6>
-      <p className='mb-3 text-sm font-poppins leading-relaxed text-light_white'>
+      <p className='mb-3 text-sm font-poppins leading-relaxed text-white_light_color'>
         {subtitle}
       </p>
-      <p className='mb-3 max-w-sm text-sm font-poppins leading-relaxed text-light_white'>
+      <p className='mb-3 max-w-sm text-sm font-poppins leading-relaxed text-white_dark_color'>
         {description}
       </p>
       <ul className='mb-4 -ml-1 space-y-2'>
@@ -22,7 +22,7 @@ const ExperienceItem = ({ title, subtitle, description, svg, details }) => {
               return (
                 <li
                   key={index}
-                  className='flex items-center text-light_white font-poppins'
+                  className='flex items-center text-white_dark_color font-poppins'
                 >
                   <span className='mr-1'>
                     <FiChevronRight color={"#64ffda"} />

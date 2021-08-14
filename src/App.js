@@ -12,7 +12,7 @@ import { ReactComponent as MySVG } from "./assets/images/scrolltotop.svg";
 
 const App = () => {
   return (
-    <div className='bg-navy'>
+    <div className='bg-navy_color'>
       <Navbar />
       <Hero />
       <About />

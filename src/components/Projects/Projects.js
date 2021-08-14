@@ -28,7 +28,7 @@ const Projects = () => {
             : "Loading!"}
         </div>
         <div className='text-center mt-10'>
-          <h4 className='text-gray_dark_light sm:text-lg font-poppins leading-relaxed'>
+          <h4 className='text-white_dark_color sm:text-lg font-poppins leading-relaxed'>
             You can see my other projects at Github.
           </h4>
         </div>
@@ -37,7 +37,7 @@ const Projects = () => {
             href='https://github.com/zisispa'
             target='_blank'
             rel='noreferrer'
-            className='text-light_gray transition-colors duration-300 hover:text-light_green'
+            className='text-white_dark_color transition-colors duration-300 hover:text-green_color'
           >
             <FiGithub size={25} />
           </a>

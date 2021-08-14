@@ -29,6 +29,7 @@ const Navbar = () => {
             <a
               href={resume}
               target='_blank'
+              rel='noreferrer'
               className='inline-flex items-center justify-center h-12 px-6 font-poppins tracking-tight border-2  border-green_color text-green_color rounded-md hover:bg-green_color_hover'
             >
               <span className='pr-2'>

@@ -5,7 +5,7 @@ import experiences from "../../data/ExperienceData/ExperienceData";
 
 const Experience = () => {
   return (
-    <section id='experience' className='py-28'>
+    <section name='experience' className='py-28'>
       <div className='max-w-5xl mx-auto px-6 lg:px-0'>
         <TitleSection title={"Experience"} description={"Where I’ve Worked"} />
 

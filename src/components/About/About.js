@@ -5,7 +5,7 @@ import SkillsItem from "./SkillsItem/SkillsItem";
 
 const About = () => {
   return (
-    <section id='about' className='py-24'>
+    <section name='about' className='py-24'>
       <div className='max-w-5xl mx-auto px-6 lg:px-0'>
         <TitleSection title={"About Me"} />
         <div className='grid gap-5 row-gap-10 lg:grid-cols-2'>

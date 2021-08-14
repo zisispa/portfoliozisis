@@ -6,7 +6,7 @@ import { FiGithub } from "react-icons/fi";
 
 const Projects = () => {
   return (
-    <section id='projects' className='py-20'>
+    <section name='projects' className='py-20'>
       <div className='max-w-5xl mx-auto px-6 lg:px-0'>
         <TitleSection
           title={"Projects"}

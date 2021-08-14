@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import NavbarItem from "./NavbarItem/NavbarItem";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { BsFileEarmarkArrowDown } from "react-icons/bs";
+import resume from "../../assets/files/zisispatis_cv.pdf";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,7 +27,8 @@ const Navbar = () => {
           <NavbarItem text_id={"contact"} title='Contact' />
           <li>
             <a
-              href='#resume'
+              href={resume}
+              target='_blank'
               className='inline-flex items-center justify-center h-12 px-6 font-poppins tracking-tight border-2  border-green_color text-green_color rounded-md hover:bg-green_color_hover'
             >
               <span className='pr-2'>
@@ -67,10 +69,26 @@ const Navbar = () => {
                 </div>
                 <nav>
                   <ul className='space-y-4 text-navy'>
-                    <NavbarItem text_id={"about"} title='About' />
-                    <NavbarItem text_id={"experience"} title='Experience' />
-                    <NavbarItem text_id={"projects"} title='Projects' />
-                    <NavbarItem text_id={"contact"} title='Contact' />
+                    <NavbarItem
+                      text_id={"about"}
+                      title='About'
+                      onClick={() => setIsMenuOpen(false)}
+                    />
+                    <NavbarItem
+                      text_id={"experience"}
+                      title='Experience'
+                      onClick={() => setIsMenuOpen(false)}
+                    />
+                    <NavbarItem
+                      text_id={"projects"}
+                      title='Projects'
+                      onClick={() => setIsMenuOpen(false)}
+                    />
+                    <NavbarItem
+                      text_id={"contact"}
+                      title='Contact'
+                      onClick={() => setIsMenuOpen(false)}
+                    />
                     <li>
                       <a
                         href='#resume'

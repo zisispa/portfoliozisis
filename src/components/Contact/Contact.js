@@ -3,7 +3,7 @@ import TitleSection from "../utils/TitleSection/TitleSection";
 
 const Contact = () => {
   return (
-    <section id='contact' className='py-24'>
+    <section name='contact' className='py-24'>
       <div className='max-w-5xl mx-auto px-6 lg:px-0'>
         <div className='flex justify-center'>
           <TitleSection title={"Contact"} />

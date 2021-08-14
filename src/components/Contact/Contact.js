@@ -10,8 +10,8 @@ const Contact = () => {
           <div className='flex justify-center'>
             <TitleSection title={"Contact"} />
           </div>
-          <div class='mb-8 text-center'>
-            <h3 class='text-5xl font-poppins text-white_color font-extrabold'>
+          <div className='mb-8 text-center'>
+            <h3 className='text-5xl font-poppins text-white_color font-extrabold'>
               Get In Touch
             </h3>
           </div>

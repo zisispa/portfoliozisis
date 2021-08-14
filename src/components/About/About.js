@@ -6,6 +6,9 @@ import SkillsItem from "./SkillsItem/SkillsItem";
 import Fade from "react-reveal/Fade";
 
 const About = () => {
+  const birthDate = new Date();
+  const age = birthDate.getFullYear() - 1997;
+
   return (
     <section name='about' className='py-24'>
       <Fade bottom>
@@ -15,7 +18,7 @@ const About = () => {
             <div className='flex flex-col justify-center'>
               <div className='max-w-xl mb-6'>
                 <p className='text-white_dark_color sm:text-lg font-poppins leading-relaxed'>
-                  Hello! I am 24 years old and I live in Kalamaria,
+                  Hello! I am {age} years old and I live in Kalamaria,
                   Thessaloniki. In 2016 I took an exam and I went to Department
                   of Computer Engineering and Electronic Systems. From the
                   school, the courses that have attracted my interest so far are

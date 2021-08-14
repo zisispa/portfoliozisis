@@ -11,7 +11,9 @@ const Footer = () => {
               © Copyright 2020 Zisis Spatis
             </p>
           </div>
-          <SocialMediaComponent />
+          <div className='flex justify-center mt-3'>
+            <SocialMediaComponent />
+          </div>
         </div>
       </div>
     </section>
